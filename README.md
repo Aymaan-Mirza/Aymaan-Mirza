@@ -1,16 +1,34 @@
-## Hi there 👋
+# Hi, I'm Aymaan 👋
 
-<!--
-**Aymaan-Mirza/Aymaan-Mirza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Electrical Engineering @ McMaster University**
 
-Here are some ideas to get you started:
+Third-year Electrical Engineering student focused on **ASIC design, digital logic, and hardware verification**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Interests
+
+- ASIC & RTL Design
+- Digital Logic & Verification
+- Verilog / SystemVerilog
+- FPGA Development
+- Semiconductor Design
+- Embedded Systems
+
+## Currently Learning
+
+- Verilog & Testbench Design
+- ASIC Design Flow (Concept to Silicon)
+- Digital Circuit Design
+- Simulation & Verification with ModelSim
+
+## Experience
+
+- 🔧 Reliability & Maintenance Engineering Intern @ Sofina Foods
+- 🎓 Electrical Engineering, McMaster University
+
+## Projects
+
+- 🖥️ RTL & digital design labs
+- 🔁 Counters, clock dividers, and sequential logic modules
+- 🧪 Verilog testbenches for functional verification
+
+---
