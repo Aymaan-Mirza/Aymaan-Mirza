@@ -16,7 +16,7 @@ Third-year EE student building toward a career in ASIC/FPGA design and digital h
 
 ## Currently Learning
 
-- Verilog HDL, from syntax to complex systems
+- Verilog/SystemVerilog, from syntax to complex systems
 - TCL Scripting for design constraints
 - Timing Analysis: STA concepts, analysis, and fixes
 - Low-Power VLSI Design fundamentals
