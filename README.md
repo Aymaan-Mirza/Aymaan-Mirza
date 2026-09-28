@@ -2,33 +2,35 @@
 
 **Electrical Engineering @ McMaster University**
 
-Third-year Electrical Engineering student focused on **ASIC design, digital logic, and hardware verification**.
+Third-year EE student building toward a career in ASIC/FPGA design and digital hardware.
 
 ## Interests
 
-- ASIC & RTL Design
-- Digital Logic & Verification
-- Verilog / SystemVerilog
-- FPGA Development
-- Semiconductor Design
-- Embedded Systems
+- RTL Design & Verilog/SystemVerilog
+- VLSI Logic Synthesis (RTL to Gate-Level)
+- Static Timing Analysis (STA)
+- Clock Domain Crossing (CDC) & FIFO Design
+- Design for Test (DFT)
+- Low-Power VLSI Design
+- Physical Design & Place-and-Route
 
 ## Currently Learning
 
-- Verilog & Testbench Design
-- ASIC Design Flow (Concept to Silicon)
-- Digital Circuit Design
-- Simulation & Verification with ModelSim
+- Verilog HDL, from syntax to complex systems
+- TCL Scripting for design constraints
+- Timing Analysis: STA concepts, analysis, and fixes
+- Low-Power VLSI Design fundamentals
+- VLSI Logic Synthesis: RTL to Gate-Level Netlist
+- CDC & FIFO Design
+- Design for Test (DFT)
+- Formal Verification (Synopsys Formality flow)
+- Physical Design with Cadence (PnR)
 
 ## Experience
 
 - 🔧 Reliability & Maintenance Engineering Intern @ Sofina Foods
 - 🎓 Electrical Engineering, McMaster University
 
-## Projects
-
-- 🖥️ RTL & digital design labs
-- 🔁 Counters, clock dividers, and sequential logic modules
-- 🧪 Verilog testbenches for functional verification
-
 ---
+
+*From RTL to silicon.*
