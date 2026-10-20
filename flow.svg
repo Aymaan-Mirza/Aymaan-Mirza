@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1020"/>
+      <stop offset="1" stop-color="#0e2230"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#16283a" stroke-width="1"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'Courier New', Consolas, monospace; }
+      .box { fill: #0d1a26; stroke: #3dffb5; stroke-width: 2; }
+      .arrow { fill: none; stroke: #1c6b59; stroke-width: 2.5; }
+      .flow { fill: none; stroke: #3dffb5; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 10 30; animation: move 1.6s linear infinite; }
+      @keyframes move { from { stroke-dashoffset: 40; } to { stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="190" rx="12" fill="url(#bg)"/>
+  <rect width="1200" height="190" rx="12" fill="url(#grid)"/>
+
+  <!-- arrows between boxes -->
+  <g>
+    <path class="arrow" d="M200 95 H240"/><path class="flow" d="M200 95 H240"/>
+    <path class="arrow" d="M390 95 H430"/><path class="flow" d="M390 95 H430"/>
+    <path class="arrow" d="M580 95 H620"/><path class="flow" d="M580 95 H620"/>
+    <path class="arrow" d="M770 95 H810"/><path class="flow" d="M770 95 H810"/>
+    <path class="arrow" d="M960 95 H1000"/><path class="flow" d="M960 95 H1000"/>
+  </g>
+
+  <!-- stage boxes -->
+  <g>
+    <rect class="box" x="50"  y="50" width="150" height="90" rx="10"/>
+    <rect class="box" x="240" y="50" width="150" height="90" rx="10"/>
+    <rect class="box" x="430" y="50" width="150" height="90" rx="10"/>
+    <rect class="box" x="620" y="50" width="150" height="90" rx="10"/>
+    <rect class="box" x="810" y="50" width="150" height="90" rx="10"/>
+    <rect class="box" x="1000" y="50" width="150" height="90" rx="10"/>
+  </g>
+
+  <g class="mono" text-anchor="middle">
+    <text x="125"  y="92" font-size="22" font-weight="bold" fill="#ffffff">RTL</text>
+    <text x="125"  y="117" font-size="13" fill="#7fa8b8">Verilog / SV</text>
+
+    <text x="315"  y="92" font-size="22" font-weight="bold" fill="#ffffff">Synthesis</text>
+    <text x="315"  y="117" font-size="13" fill="#7fa8b8">RTL to netlist</text>
+
+    <text x="505"  y="92" font-size="22" font-weight="bold" fill="#ffffff">STA</text>
+    <text x="505"  y="117" font-size="13" fill="#7fa8b8">setup / hold</text>
+
+    <text x="695"  y="92" font-size="22" font-weight="bold" fill="#ffffff">DFT</text>
+    <text x="695"  y="117" font-size="13" fill="#7fa8b8">scan + test</text>
+
+    <text x="885"  y="92" font-size="22" font-weight="bold" fill="#ffffff">PnR</text>
+    <text x="885"  y="117" font-size="13" fill="#7fa8b8">Cadence</text>
+
+    <text x="1075" y="92" font-size="22" font-weight="bold" fill="#3dffb5">GDSII</text>
+    <text x="1075" y="117" font-size="13" fill="#7fa8b8">to silicon</text>
+  </g>
+
+  <text class="mono" x="600" y="32" text-anchor="middle" font-size="13" fill="#3dffb5">// the flow I'm learning</text>
+  <text class="mono" x="600" y="170" text-anchor="middle" font-size="13" fill="#7fa8b8">with CDC, FIFO design, low-power techniques and formal verification along the way</text>
+</svg>
