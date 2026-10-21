@@ -89,8 +89,7 @@
 <line x1="245.6" y1="477" x2="1150" y2="477" stroke="#1c6b59" stroke-width="2"/>
 <circle cx="1150" cy="477" r="4" fill="#0d1a26" stroke="#3dffb5" stroke-width="2"/>
 <text class="mono" x="50" y="526" font-size="17" fill="#c9d4dc">Third-year Electrical Engineering student at McMaster University, building toward a career</text>
-<text class="mono" x="50" y="552" font-size="17" fill="#c9d4dc">in ASIC/FPGA design and digital hardware. I like the whole path a design takes,</text>
-<text class="mono" x="50" y="578" font-size="17" fill="#c9d4dc">from a blank Verilog file to a placed and routed chip.</text>
+<text class="mono" x="50" y="552" font-size="17" fill="#c9d4dc">in ASIC/FPGA design and digital hardware.</text>
 <rect x="200" y="604" width="800" height="326" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
 <circle cx="224" cy="624" r="6" fill="#ff5f56"/>
 <circle cx="244" cy="624" r="6" fill="#ffbd2e"/>
