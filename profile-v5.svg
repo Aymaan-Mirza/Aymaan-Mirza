@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2038" viewBox="0 0 1200 2038" role="img">
+<title>Aymaan Mirza, Electrical Engineering at McMaster.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1020"/><stop offset="0.5" stop-color="#0c1a28"/><stop offset="1" stop-color="#0a1624"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#16283a" stroke-width="1"/></pattern>
+<linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#3dffb5"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1c6b59"/><stop offset="1" stop-color="#3dffb5"/></linearGradient>
+<radialGradient id="chipglow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3dffb5" stop-opacity="0.35"/><stop offset="1" stop-color="#3dffb5" stop-opacity="0"/></radialGradient>
+<clipPath id="tc0"><rect x="450" y="328" height="34" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.1000;0.2200;0.2300;1.0000" values="0;300;300;0;0"/></rect></clipPath><clipPath id="tc1"><rect x="360" y="328" height="34" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.2500;0.3500;0.4700;0.4800;1.0000" values="0;0;480;480;0;0"/></rect></clipPath><clipPath id="tc2"><rect x="498" y="328" height="34" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.5000;0.6000;0.7200;0.7300;1.0000" values="0;0;204;204;0;0"/></rect></clipPath><clipPath id="tc3"><rect x="474" y="328" height="34" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.7500;0.8500;0.9700;0.9800;1.0000" values="0;0;252;252;0;0"/></rect></clipPath>
+<style>
+.mono { font-family: 'Courier New', Consolas, monospace; }
+.trace { fill: none; stroke: #1c6b59; stroke-width: 2.5; stroke-linejoin: round; }
+.pulse { fill: none; stroke: #3dffb5; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 18 400; animation: pf 5s linear infinite; }
+.d2 { animation-delay: -1.2s; } .d3 { animation-delay: -2.4s; } .d4 { animation-delay: -3.6s; }
+@keyframes pf { from { stroke-dashoffset: 418; } to { stroke-dashoffset: 0; } }
+.via { fill: #0a1020; stroke: #3dffb5; stroke-width: 2; }
+.pin { fill: #c9d4dc; }
+.blink { animation: bl 1.1s steps(1) infinite; }
+@keyframes bl { 50% { opacity: 0; } }
+.box { fill: #0d1a26; stroke: #3dffb5; stroke-width: 2; }
+.arrow { fill: none; stroke: #1c6b59; stroke-width: 2.5; }
+.flow { fill: none; stroke: #3dffb5; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 10 30; animation: mv 1.6s linear infinite; }
+@keyframes mv { from { stroke-dashoffset: 40; } to { stroke-dashoffset: 0; } }
+</style>
+</defs>
+<rect width="1200" height="2038" rx="12" fill="url(#bg)"/>
+<rect width="1200" height="2038" rx="12" fill="url(#grid)"/>
+<g>
+  <path class="trace" d="M560 110 H700 L730 140 H868"/>
+  <path class="trace" d="M520 150 H640 L670 180 H760 L790 160 H868"/>
+  <path class="trace" d="M600 210 H720 L750 180 H868"/>
+  <path class="trace" d="M480 250 H700 L740 210 H868"/>
+  <path class="pulse" d="M560 110 H700 L730 140 H868"/>
+  <path class="pulse d2" d="M520 150 H640 L670 180 H760 L790 160 H868"/>
+  <path class="pulse d3" d="M600 210 H720 L750 180 H868"/>
+  <path class="pulse d4" d="M480 250 H700 L740 210 H868"/>
+  <circle class="via" cx="560" cy="110" r="5"/>
+  <circle class="via" cx="520" cy="150" r="5"/>
+  <circle class="via" cx="600" cy="210" r="5"/>
+  <circle class="via" cx="480" cy="250" r="5"/>
+  <path class="trace" d="M1012 140 H1100 L1130 110 H1170"/>
+  <path class="trace" d="M1012 170 H1150 L1170 190"/>
+  <path class="trace" d="M1012 200 H1090 L1120 240 H1170"/>
+  <path class="pulse d2" d="M1012 140 H1100 L1130 110 H1170"/>
+  <path class="pulse d3" d="M1012 170 H1150 L1170 190"/>
+  <path class="pulse" d="M1012 200 H1090 L1120 240 H1170"/>
+  <circle cx="940" cy="170" r="130" fill="url(#chipglow)"/>
+  <rect class="pin" x="858" y="132" width="14" height="10" rx="2"/>
+  <rect class="pin" x="858" y="152" width="14" height="10" rx="2"/>
+  <rect class="pin" x="858" y="172" width="14" height="10" rx="2"/>
+  <rect class="pin" x="858" y="192" width="14" height="10" rx="2"/>
+  <rect class="pin" x="1008" y="132" width="14" height="10" rx="2"/>
+  <rect class="pin" x="1008" y="162" width="14" height="10" rx="2"/>
+  <rect class="pin" x="1008" y="192" width="14" height="10" rx="2"/>
+  <rect class="pin" x="900" y="88" width="10" height="14" rx="2"/>
+  <rect class="pin" x="925" y="88" width="10" height="14" rx="2"/>
+  <rect class="pin" x="950" y="88" width="10" height="14" rx="2"/>
+  <rect class="pin" x="975" y="88" width="10" height="14" rx="2"/>
+  <rect class="pin" x="900" y="238" width="10" height="14" rx="2"/>
+  <rect class="pin" x="925" y="238" width="10" height="14" rx="2"/>
+  <rect class="pin" x="950" y="238" width="10" height="14" rx="2"/>
+  <rect class="pin" x="975" y="238" width="10" height="14" rx="2"/>
+  <rect x="870" y="100" width="140" height="140" rx="10" fill="#0d1a26" stroke="#3dffb5" stroke-width="2.5"/>
+  <rect x="884" y="114" width="112" height="112" rx="6" fill="none" stroke="#1c6b59" stroke-width="1.5"/>
+  <circle cx="892" cy="122" r="3" fill="#3dffb5"/>
+  <text class="mono" x="940" y="165" text-anchor="middle" font-size="26" font-weight="bold" fill="#3dffb5">ASIC</text>
+  <text class="mono" x="940" y="190" text-anchor="middle" font-size="12" fill="#7fa8b8">RTL → GDSII</text>
+  <text class="mono" x="60" y="105" font-size="20" fill="#3dffb5">&gt; hello, world</text>
+  <text class="mono" x="60" y="172" font-size="56" font-weight="bold" fill="url(#title)">Aymaan Mirza</text>
+  <text class="mono" x="62" y="212" font-size="21" fill="#c9d4dc">Electrical Engineering @ McMaster</text>
+</g>
+<text class="mono" x="450" y="352" font-size="20" fill="#3dffb5" clip-path="url(#tc0)">RTL Design &amp; Verification</text>
+<text class="mono" x="360" y="352" font-size="20" fill="#3dffb5" clip-path="url(#tc1)">Logic Synthesis &amp; Static Timing Analysis</text>
+<text class="mono" x="498" y="352" font-size="20" fill="#3dffb5" clip-path="url(#tc2)">CDC &amp; FIFO Design</text>
+<text class="mono" x="474" y="352" font-size="20" fill="#3dffb5" clip-path="url(#tc3)">DFT &amp; Physical Design</text>
+<rect x="190.1" y="388" width="105.4" height="34" rx="6" fill="#0d1a26" stroke="#3dffb5" stroke-width="1.6"/>
+<text class="mono" x="242.8" y="410" text-anchor="middle" font-size="15" font-weight="bold" fill="#3dffb5">Verilog</text>
+<rect x="307.5" y="388" width="166.6" height="34" rx="6" fill="#0d1a26" stroke="#3dffb5" stroke-width="1.6"/>
+<text class="mono" x="390.8" y="410" text-anchor="middle" font-size="15" font-weight="bold" fill="#3dffb5">SystemVerilog</text>
+<rect x="486.1" y="388" width="227.8" height="34" rx="6" fill="#0d1a26" stroke="#c8406e" stroke-width="1.6"/>
+<text class="mono" x="600.0" y="410" text-anchor="middle" font-size="15" font-weight="bold" fill="#c8406e">McMaster University</text>
+<rect x="725.9" y="388" width="95.2" height="34" rx="6" fill="#0d1a26" stroke="#3dffb5" stroke-width="1.6"/>
+<text class="mono" x="773.5" y="410" text-anchor="middle" font-size="15" font-weight="bold" fill="#3dffb5">Python</text>
+<rect x="833.1" y="388" width="44.2" height="34" rx="6" fill="#0d1a26" stroke="#3dffb5" stroke-width="1.6"/>
+<text class="mono" x="855.2" y="410" text-anchor="middle" font-size="15" font-weight="bold" fill="#3dffb5">C</text>
+<rect x="889.3" y="388" width="64.6" height="34" rx="6" fill="#0d1a26" stroke="#3dffb5" stroke-width="1.6"/>
+<text class="mono" x="921.6" y="410" text-anchor="middle" font-size="15" font-weight="bold" fill="#3dffb5">C++</text>
+<text class="mono" x="50" y="486" font-size="26" font-weight="bold" fill="#3dffb5">// about me</text>
+<line x1="245.6" y1="477" x2="1150" y2="477" stroke="#1c6b59" stroke-width="2"/>
+<circle cx="1150" cy="477" r="4" fill="#0d1a26" stroke="#3dffb5" stroke-width="2"/>
+<text class="mono" x="50" y="526" font-size="17" fill="#c9d4dc">Third-year Electrical Engineering student at McMaster University, building toward a career</text>
+<text class="mono" x="50" y="552" font-size="17" fill="#c9d4dc">in ASIC/FPGA design and digital hardware.</text>
+<rect x="200" y="580" width="800" height="302" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<circle cx="224" cy="600" r="6" fill="#ff5f56"/>
+<circle cx="244" cy="600" r="6" fill="#ffbd2e"/>
+<circle cx="264" cy="600" r="6" fill="#27c93f"/>
+<text class="mono" x="600" y="605" text-anchor="middle" font-size="13" fill="#7fa8b8">aymaan.v</text>
+<text class="mono" x="228" y="640" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">module</tspan><tspan fill="#c9d4dc"> aymaan (</tspan></text>
+<text class="mono" x="228" y="664" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">    input  wire </tspan><tspan fill="#c9d4dc">clk,</tspan></text>
+<text class="mono" x="228" y="688" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">    input  wire </tspan><tspan fill="#c9d4dc">rst_n,</tspan></text>
+<text class="mono" x="228" y="712" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">    output reg  </tspan><tspan fill="#c9d4dc">[7:0] learning</tspan></text>
+<text class="mono" x="228" y="736" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#c9d4dc">);</tspan></text>
+<text class="mono" x="228" y="760" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">    always</tspan><tspan fill="#c9d4dc"> @(</tspan><tspan fill="#3dffb5">posedge</tspan><tspan fill="#c9d4dc"> clk </tspan><tspan fill="#3dffb5">or negedge</tspan><tspan fill="#c9d4dc"> rst_n) </tspan><tspan fill="#3dffb5">begin</tspan></text>
+<text class="mono" x="228" y="784" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">        if</tspan><tspan fill="#c9d4dc"> (!rst_n) learning &lt;= </tspan><tspan fill="#f5c26b">8'd0</tspan><tspan fill="#c9d4dc">;</tspan></text>
+<text class="mono" x="228" y="808" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">        else</tspan><tspan fill="#c9d4dc">        learning &lt;= learning + </tspan><tspan fill="#f5c26b">1'b1</tspan><tspan fill="#c9d4dc">;</tspan></text>
+<text class="mono" x="228" y="832" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">    end</tspan></text>
+<text class="mono" x="228" y="856" font-size="16" xml:space="preserve" style="white-space:pre"><tspan fill="#3dffb5">endmodule</tspan></text>
+<text class="mono" x="50" y="938" font-size="26" font-weight="bold" fill="#3dffb5">// the flow I'm working through</text>
+<line x1="557.5999999999999" y1="929" x2="1150" y2="929" stroke="#1c6b59" stroke-width="2"/>
+<circle cx="1150" cy="929" r="4" fill="#0d1a26" stroke="#3dffb5" stroke-width="2"/>
+<rect class="box" x="50" y="960" width="150" height="90" rx="10"/>
+<text class="mono" x="125" y="1002" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">RTL</text>
+<text class="mono" x="125" y="1027" text-anchor="middle" font-size="13" fill="#7fa8b8">Verilog / SV</text>
+<path class="arrow" d="M200 1005 H240"/><path class="flow" d="M200 1005 H240"/>
+<rect class="box" x="240" y="960" width="150" height="90" rx="10"/>
+<text class="mono" x="315" y="1002" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">Synthesis</text>
+<text class="mono" x="315" y="1027" text-anchor="middle" font-size="13" fill="#7fa8b8">RTL to netlist</text>
+<path class="arrow" d="M390 1005 H430"/><path class="flow" d="M390 1005 H430"/>
+<rect class="box" x="430" y="960" width="150" height="90" rx="10"/>
+<text class="mono" x="505" y="1002" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">STA</text>
+<text class="mono" x="505" y="1027" text-anchor="middle" font-size="13" fill="#7fa8b8">setup / hold</text>
+<path class="arrow" d="M580 1005 H620"/><path class="flow" d="M580 1005 H620"/>
+<rect class="box" x="620" y="960" width="150" height="90" rx="10"/>
+<text class="mono" x="695" y="1002" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">DFT</text>
+<text class="mono" x="695" y="1027" text-anchor="middle" font-size="13" fill="#7fa8b8">scan + test</text>
+<path class="arrow" d="M770 1005 H810"/><path class="flow" d="M770 1005 H810"/>
+<rect class="box" x="810" y="960" width="150" height="90" rx="10"/>
+<text class="mono" x="885" y="1002" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">PnR</text>
+<text class="mono" x="885" y="1027" text-anchor="middle" font-size="13" fill="#7fa8b8">Cadence</text>
+<path class="arrow" d="M960 1005 H1000"/><path class="flow" d="M960 1005 H1000"/>
+<rect class="box" x="1000" y="960" width="150" height="90" rx="10"/>
+<text class="mono" x="1075" y="1002" text-anchor="middle" font-size="22" font-weight="bold" fill="#3dffb5">GDSII</text>
+<text class="mono" x="1075" y="1027" text-anchor="middle" font-size="13" fill="#7fa8b8">to silicon</text>
+<text class="mono" x="600" y="1085" text-anchor="middle" font-size="13" fill="#7fa8b8">with CDC, FIFO design, low-power techniques and formal verification along the way</text>
+<text class="mono" x="50" y="1156" font-size="26" font-weight="bold" fill="#3dffb5">// what I'm into</text>
+<line x1="323.6" y1="1147" x2="1150" y2="1147" stroke="#1c6b59" stroke-width="2"/>
+<circle cx="1150" cy="1147" r="4" fill="#0d1a26" stroke="#3dffb5" stroke-width="2"/>
+<rect x="50" y="1182" width="262" height="84" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="50" y="1196" width="4" height="56" rx="2" fill="#3dffb5"/>
+<text class="mono" x="74" y="1218" font-size="17" font-weight="bold" fill="#ffffff">RTL Design</text>
+<text class="mono" x="74" y="1242" font-size="12" fill="#7fa8b8">Verilog and SystemVerilog</text>
+<rect x="330" y="1182" width="262" height="84" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="330" y="1196" width="4" height="56" rx="2" fill="#3dffb5"/>
+<text class="mono" x="354" y="1218" font-size="17" font-weight="bold" fill="#ffffff">Logic Synthesis</text>
+<text class="mono" x="354" y="1242" font-size="12" fill="#7fa8b8">RTL to gate-level netlist</text>
+<rect x="608" y="1182" width="262" height="84" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="608" y="1196" width="4" height="56" rx="2" fill="#3dffb5"/>
+<text class="mono" x="632" y="1218" font-size="17" font-weight="bold" fill="#ffffff">Timing (STA)</text>
+<text class="mono" x="632" y="1242" font-size="12" fill="#7fa8b8">Setup and hold fixes</text>
+<rect x="888" y="1182" width="262" height="84" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="888" y="1196" width="4" height="56" rx="2" fill="#3dffb5"/>
+<text class="mono" x="912" y="1218" font-size="17" font-weight="bold" fill="#ffffff">CDC + FIFO</text>
+<text class="mono" x="912" y="1242" font-size="12" fill="#7fa8b8">Moving data across clocks</text>
+<rect x="190" y="1282" width="262" height="84" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="190" y="1296" width="4" height="56" rx="2" fill="#3dffb5"/>
+<text class="mono" x="214" y="1318" font-size="17" font-weight="bold" fill="#ffffff">Design for Test</text>
+<text class="mono" x="214" y="1342" font-size="12" fill="#7fa8b8">Making chips testable</text>
+<rect x="469" y="1282" width="262" height="84" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="469" y="1296" width="4" height="56" rx="2" fill="#3dffb5"/>
+<text class="mono" x="493" y="1318" font-size="17" font-weight="bold" fill="#ffffff">Low-Power VLSI</text>
+<text class="mono" x="493" y="1342" font-size="12" fill="#7fa8b8">Spending fewer picojoules</text>
+<rect x="748" y="1282" width="262" height="84" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="748" y="1296" width="4" height="56" rx="2" fill="#3dffb5"/>
+<text class="mono" x="772" y="1318" font-size="17" font-weight="bold" fill="#ffffff">Physical Design</text>
+<text class="mono" x="772" y="1342" font-size="12" fill="#7fa8b8">Place-and-route</text>
+<text class="mono" x="50" y="1422" font-size="26" font-weight="bold" fill="#3dffb5">// currently learning</text>
+<line x1="401.59999999999997" y1="1413" x2="1150" y2="1413" stroke="#1c6b59" stroke-width="2"/>
+<circle cx="1150" cy="1413" r="4" fill="#0d1a26" stroke="#3dffb5" stroke-width="2"/>
+<text class="mono" x="60" y="1462" font-size="15" fill="#c9d4dc">Verilog / SystemVerilog, from syntax to complex systems</text>
+<rect x="640" y="1451" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1451" width="420" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1463" font-size="14" fill="#7fa8b8">100%</text>
+<text class="mono" x="60" y="1498" font-size="15" fill="#c9d4dc">TCL scripting for design constraints</text>
+<rect x="640" y="1487" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1487" width="336" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1499" font-size="14" fill="#7fa8b8">80%</text>
+<text class="mono" x="60" y="1534" font-size="15" fill="#c9d4dc">Timing analysis: STA concepts, analysis and fixes</text>
+<rect x="640" y="1523" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1523" width="336" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1535" font-size="14" fill="#7fa8b8">80%</text>
+<text class="mono" x="60" y="1570" font-size="15" fill="#c9d4dc">Low-power VLSI design fundamentals</text>
+<rect x="640" y="1559" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1559" width="294" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1571" font-size="14" fill="#7fa8b8">70%</text>
+<text class="mono" x="60" y="1606" font-size="15" fill="#c9d4dc">Logic synthesis: RTL to gate-level netlist</text>
+<rect x="640" y="1595" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1595" width="294" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1607" font-size="14" fill="#7fa8b8">70%</text>
+<text class="mono" x="60" y="1642" font-size="15" fill="#c9d4dc">CDC and FIFO design</text>
+<rect x="640" y="1631" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1631" width="252" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1643" font-size="14" fill="#7fa8b8">60%</text>
+<text class="mono" x="60" y="1678" font-size="15" fill="#c9d4dc">Design for Test (DFT)</text>
+<rect x="640" y="1667" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1667" width="210" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1679" font-size="14" fill="#7fa8b8">50%</text>
+<text class="mono" x="60" y="1714" font-size="15" fill="#c9d4dc">Formal verification (Synopsys Formality flow)</text>
+<rect x="640" y="1703" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1703" width="168" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1715" font-size="14" fill="#7fa8b8">40%</text>
+<text class="mono" x="60" y="1750" font-size="15" fill="#c9d4dc">Physical design with Cadence (PnR)</text>
+<rect x="640" y="1739" width="420" height="14" rx="7" fill="#16283a"/>
+<rect x="640" y="1739" width="168" height="14" rx="7" fill="url(#bar)"/>
+<text class="mono" x="1074" y="1751" font-size="14" fill="#7fa8b8">40%</text>
+<text class="mono" x="50" y="1812" font-size="26" font-weight="bold" fill="#3dffb5">// experience</text>
+<line x1="276.79999999999995" y1="1803" x2="1150" y2="1803" stroke="#1c6b59" stroke-width="2"/>
+<circle cx="1150" cy="1803" r="4" fill="#0d1a26" stroke="#3dffb5" stroke-width="2"/>
+<rect x="50" y="1838" width="540" height="90" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="50" y="1852" width="4" height="62" rx="2" fill="#3dffb5"/>
+<text class="mono" x="74" y="1878" font-size="16" font-weight="bold" fill="#ffffff">Reliability &amp; Maintenance Engineering Intern</text>
+<text class="mono" x="74" y="1904" font-size="15" fill="#3dffb5">Sofina Foods</text>
+<rect x="610" y="1838" width="540" height="90" rx="10" fill="#0d1a26" stroke="#1c6b59" stroke-width="1.5"/>
+<rect x="610" y="1852" width="4" height="62" rx="2" fill="#3dffb5"/>
+<text class="mono" x="634" y="1878" font-size="19" font-weight="bold" fill="#ffffff">Electrical Engineering</text>
+<text class="mono" x="634" y="1904" font-size="15" fill="#3dffb5">McMaster University</text>
+<g transform="translate(0,1978)"><g><path d="M0,7.46 L10,7.90 L20,7.99 L30,7.74 L40,7.14 L50,6.24 L60,5.06 L70,3.66 L80,2.10 L90,0.45 L100,-1.22 L110,-2.83 L120,-4.33 L130,-5.63 L140,-6.69 L150,-7.46 L160,-7.90 L170,-7.99 L180,-7.74 L190,-7.14 L200,-6.24 L210,-5.06 L220,-3.66 L230,-2.10 L240,-0.45 L250,1.22 L260,2.83 L270,4.33 L280,5.63 L290,6.69 L300,7.46 L310,7.90 L320,7.99 L330,7.74 L340,7.14 L350,6.24 L360,5.06 L370,3.66 L380,2.10 L390,0.45 L400,-1.22 L410,-2.83 L420,-4.33 L430,-5.63 L440,-6.69 L450,-7.46 L460,-7.90 L470,-7.99 L480,-7.74 L490,-7.14 L500,-6.24 L510,-5.06 L520,-3.66 L530,-2.10 L540,-0.45 L550,1.22 L560,2.83 L570,4.33 L580,5.63 L590,6.69 L600,7.46 L610,7.90 L620,7.99 L630,7.74 L640,7.14 L650,6.24 L660,5.06 L670,3.66 L680,2.10 L690,0.45 L700,-1.22 L710,-2.83 L720,-4.33 L730,-5.63 L740,-6.69 L750,-7.46 L760,-7.90 L770,-7.99 L780,-7.74 L790,-7.14 L800,-6.24 L810,-5.06 L820,-3.66 L830,-2.10 L840,-0.45 L850,1.22 L860,2.83 L870,4.33 L880,5.63 L890,6.69 L900,7.46 L910,7.90 L920,7.99 L930,7.74 L940,7.14 L950,6.24 L960,5.06 L970,3.66 L980,2.10 L990,0.45 L1000,-1.22 L1010,-2.83 L1020,-4.33 L1030,-5.63 L1040,-6.69 L1050,-7.46 L1060,-7.90 L1070,-7.99 L1080,-7.74 L1090,-7.14 L1100,-6.24 L1110,-5.06 L1120,-3.66 L1130,-2.10 L1140,-0.45 L1150,1.22 L1160,2.83 L1170,4.33 L1180,5.63 L1190,6.69 L1200,7.46 L1210,7.90 L1220,7.99 L1230,7.74 L1240,7.14 L1250,6.24 L1260,5.06 L1270,3.66 L1280,2.10 L1290,0.45 L1300,-1.22 L1310,-2.83 L1320,-4.33 L1330,-5.63 L1340,-6.69 L1350,-7.46 L1360,-7.90 L1370,-7.99 L1380,-7.74 L1390,-7.14 L1400,-6.24 L1410,-5.06 L1420,-3.66 L1430,-2.10 L1440,-0.45 L1450,1.22 L1460,2.83 L1470,4.33 L1480,5.63 L1490,6.69 L1500,7.46 L1510,7.90 L1520,7.99 L1530,7.74 L1540,7.14 L1550,6.24 L1560,5.06 L1570,3.66 L1580,2.10 L1590,0.45 L1600,-1.22 L1610,-2.83 L1620,-4.33 L1630,-5.63 L1640,-6.69 L1650,-7.46 L1660,-7.90 L1670,-7.99 L1680,-7.74 L1690,-7.14 L1700,-6.24 L1710,-5.06 L1720,-3.66 L1730,-2.10 L1740,-0.45 L1750,1.22 L1760,2.83 L1770,4.33 L1780,5.63 L1790,6.69 L1800,7.46 L1810,7.90 L1820,7.99 L1830,7.74 L1840,7.14 L1850,6.24 L1860,5.06 L1870,3.66 L1880,2.10 L1890,0.45 L1900,-1.22 L1910,-2.83 L1920,-4.33 L1930,-5.63 L1940,-6.69 L1950,-7.46 L1960,-7.90 L1970,-7.99 L1980,-7.74 L1990,-7.14 L2000,-6.24 L2010,-5.06 L2020,-3.66 L2030,-2.10 L2040,-0.45 L2050,1.22 L2060,2.83 L2070,4.33 L2080,5.63 L2090,6.69 L2100,7.46 L2110,7.90 L2120,7.99 L2130,7.74 L2140,7.14 L2150,6.24 L2160,5.06 L2170,3.66 L2180,2.10 L2190,0.45 L2200,-1.22 L2210,-2.83 L2220,-4.33 L2230,-5.63 L2240,-6.69 L2250,-7.46 L2260,-7.90 L2270,-7.99 L2280,-7.74 L2290,-7.14 L2300,-6.24 L2310,-5.06 L2320,-3.66 L2330,-2.10 L2340,-0.45 L2350,1.22 L2360,2.83 L2370,4.33 L2380,5.63 L2390,6.69 L2400,7.46 L2410,7.90 L2420,7.99 L2430,7.74 L2440,7.14 L2450,6.24 L2460,5.06 L2470,3.66 L2480,2.10 L2490,0.45 L2500,-1.22 L2510,-2.83 L2520,-4.33 L2530,-5.63 L2540,-6.69 L2550,-7.46 L2560,-7.90 L2570,-7.99 L2580,-7.74 L2590,-7.14 L2600,-6.24 L2610,-5.06 L2620,-3.66 L2630,-2.10 L2640,-0.45 L2650,1.22 L2660,2.83 L2670,4.33 L2680,5.63 L2690,6.69 L2700,7.46 L2710,7.90 L2720,7.99 L2730,7.74 L2740,7.14 L2750,6.24 L2760,5.06 L2770,3.66 L2780,2.10 L2790,0.45 L2800,-1.22 L2800,200 L0,200 Z" fill="#10382f" opacity="0.7"><animateTransform attributeName="transform" type="translate" from="-300 0" to="0 0" dur="9s" repeatCount="indefinite"/></path></g>
+<g><path d="M0,0.00 L10,1.56 L20,3.09 L30,4.54 L40,5.88 L50,7.07 L60,8.09 L70,8.91 L80,9.51 L90,9.88 L100,10.00 L110,9.88 L120,9.51 L130,8.91 L140,8.09 L150,7.07 L160,5.88 L170,4.54 L180,3.09 L190,1.56 L200,0.00 L210,-1.56 L220,-3.09 L230,-4.54 L240,-5.88 L250,-7.07 L260,-8.09 L270,-8.91 L280,-9.51 L290,-9.88 L300,-10.00 L310,-9.88 L320,-9.51 L330,-8.91 L340,-8.09 L350,-7.07 L360,-5.88 L370,-4.54 L380,-3.09 L390,-1.56 L400,-0.00 L410,1.56 L420,3.09 L430,4.54 L440,5.88 L450,7.07 L460,8.09 L470,8.91 L480,9.51 L490,9.88 L500,10.00 L510,9.88 L520,9.51 L530,8.91 L540,8.09 L550,7.07 L560,5.88 L570,4.54 L580,3.09 L590,1.56 L600,0.00 L610,-1.56 L620,-3.09 L630,-4.54 L640,-5.88 L650,-7.07 L660,-8.09 L670,-8.91 L680,-9.51 L690,-9.88 L700,-10.00 L710,-9.88 L720,-9.51 L730,-8.91 L740,-8.09 L750,-7.07 L760,-5.88 L770,-4.54 L780,-3.09 L790,-1.56 L800,-0.00 L810,1.56 L820,3.09 L830,4.54 L840,5.88 L850,7.07 L860,8.09 L870,8.91 L880,9.51 L890,9.88 L900,10.00 L910,9.88 L920,9.51 L930,8.91 L940,8.09 L950,7.07 L960,5.88 L970,4.54 L980,3.09 L990,1.56 L1000,0.00 L1010,-1.56 L1020,-3.09 L1030,-4.54 L1040,-5.88 L1050,-7.07 L1060,-8.09 L1070,-8.91 L1080,-9.51 L1090,-9.88 L1100,-10.00 L1110,-9.88 L1120,-9.51 L1130,-8.91 L1140,-8.09 L1150,-7.07 L1160,-5.88 L1170,-4.54 L1180,-3.09 L1190,-1.56 L1200,-0.00 L1210,1.56 L1220,3.09 L1230,4.54 L1240,5.88 L1250,7.07 L1260,8.09 L1270,8.91 L1280,9.51 L1290,9.88 L1300,10.00 L1310,9.88 L1320,9.51 L1330,8.91 L1340,8.09 L1350,7.07 L1360,5.88 L1370,4.54 L1380,3.09 L1390,1.56 L1400,0.00 L1410,-1.56 L1420,-3.09 L1430,-4.54 L1440,-5.88 L1450,-7.07 L1460,-8.09 L1470,-8.91 L1480,-9.51 L1490,-9.88 L1500,-10.00 L1510,-9.88 L1520,-9.51 L1530,-8.91 L1540,-8.09 L1550,-7.07 L1560,-5.88 L1570,-4.54 L1580,-3.09 L1590,-1.56 L1600,-0.00 L1610,1.56 L1620,3.09 L1630,4.54 L1640,5.88 L1650,7.07 L1660,8.09 L1670,8.91 L1680,9.51 L1690,9.88 L1700,10.00 L1710,9.88 L1720,9.51 L1730,8.91 L1740,8.09 L1750,7.07 L1760,5.88 L1770,4.54 L1780,3.09 L1790,1.56 L1800,0.00 L1810,-1.56 L1820,-3.09 L1830,-4.54 L1840,-5.88 L1850,-7.07 L1860,-8.09 L1870,-8.91 L1880,-9.51 L1890,-9.88 L1900,-10.00 L1910,-9.88 L1920,-9.51 L1930,-8.91 L1940,-8.09 L1950,-7.07 L1960,-5.88 L1970,-4.54 L1980,-3.09 L1990,-1.56 L2000,-0.00 L2010,1.56 L2020,3.09 L2030,4.54 L2040,5.88 L2050,7.07 L2060,8.09 L2070,8.91 L2080,9.51 L2090,9.88 L2100,10.00 L2110,9.88 L2120,9.51 L2130,8.91 L2140,8.09 L2150,7.07 L2160,5.88 L2170,4.54 L2180,3.09 L2190,1.56 L2200,0.00 L2210,-1.56 L2220,-3.09 L2230,-4.54 L2240,-5.88 L2250,-7.07 L2260,-8.09 L2270,-8.91 L2280,-9.51 L2290,-9.88 L2300,-10.00 L2310,-9.88 L2320,-9.51 L2330,-8.91 L2340,-8.09 L2350,-7.07 L2360,-5.88 L2370,-4.54 L2380,-3.09 L2390,-1.56 L2400,-0.00 L2410,1.56 L2420,3.09 L2430,4.54 L2440,5.88 L2450,7.07 L2460,8.09 L2470,8.91 L2480,9.51 L2490,9.88 L2500,10.00 L2510,9.88 L2520,9.51 L2530,8.91 L2540,8.09 L2550,7.07 L2560,5.88 L2570,4.54 L2580,3.09 L2590,1.56 L2600,-0.00 L2610,-1.56 L2620,-3.09 L2630,-4.54 L2640,-5.88 L2650,-7.07 L2660,-8.09 L2670,-8.91 L2680,-9.51 L2690,-9.88 L2700,-10.00 L2710,-9.88 L2720,-9.51 L2730,-8.91 L2740,-8.09 L2750,-7.07 L2760,-5.88 L2770,-4.54 L2780,-3.09 L2790,-1.56 L2800,-0.00 L2800,200 L0,200 Z" fill="#0f2a30" opacity="0.9"><animateTransform attributeName="transform" type="translate" from="-400 0" to="0 0" dur="12s" repeatCount="indefinite"/></path></g></g>
+</svg>
